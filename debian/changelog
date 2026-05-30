@@ -1,8 +1,8 @@
-nvidia-graphics-drivers (580.159.03-0) UNRELEASED; urgency=medium
+nvidia-graphics-drivers (580.159.04-0) UNRELEASED; urgency=medium
 
-  * new upstream 580.159.03
+  * new upstream 580.159.04
 
- -- gfdgd_xi <3025613752@qq.com>  Sat, 09 May 2026 08:09:22 +0800
+ -- gfdgd_xi <3025613752@qq.com>  Sat, 30 May 2026 20:34:44 +0800
 
 nvidia-graphics-drivers (580.105.08-0deepin2) unstable; urgency=medium
 
