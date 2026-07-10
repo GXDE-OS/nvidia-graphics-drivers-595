@@ -1,4 +1,4 @@
-nvidia-graphics-drivers-595 (595.71.05-0deepin3) unstable; urgency=medium
+nvidia-graphics-drivers-595 (595.84) unstable; urgency=medium
 
   * add fcf-protection=branch compiler flag for IBT/CET compatibility
     (open kernel module)
