@@ -1,4 +1,0 @@
-libnvidia-ngx.so.#VERSION#		#LIBDIR#/#PRIVATE#
-_nvngx.dll				#LIBDIR#/#PRIVATE#/nvidia/wine
-nvngx.dll				#LIBDIR#/#PRIVATE#/nvidia/wine
-nvngx_dlssg.dll				#LIBDIR#/#PRIVATE#/nvidia/wine

@@ -1,5 +1,0 @@
-#!/usr/bin/dh-exec
-
-libcuda.so.#VERSION#	#LIBDIR#/#PRIVATE#/
-[amd64 arm64] libnvidia-nvvm70.so*    #LIBDIR#/#PRIVATE#/
-sandboxutils-filelist.json	#LIBDIR#/#PRIVATE#/

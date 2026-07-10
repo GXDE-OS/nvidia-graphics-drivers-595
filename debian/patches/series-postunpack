@@ -1,2 +1,2 @@
-#man-fixes-nvidia-smi.patch
-0001-Make-modeset-and-fbdev-default-enabled.patch.patch
+systemd-powerd-no-fail.patch
+fcf-protection-branch.patch

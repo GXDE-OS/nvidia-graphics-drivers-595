@@ -1,2 +1,0 @@
-libnvidia-api.so.1 #PACKAGE# #MINVER#
- nvapi_QueryInterface@Base 525

@@ -1,6 +1,0 @@
-#!/usr/bin/dh-exec
-
-libnvidia-glcore.so.#VERSION#	#LIBDIR#/
-libnvidia-tls.so.#VERSION#	#LIBDIR#/
-libnvidia-egl-xlib.so*	#LIBDIR#/
-[amd64] libnvidia-present.so*	#LIBDIR#/

@@ -1,0 +1,22 @@
+diff --git a/NVIDIA-Linux/kernel-open/Kbuild b/NVIDIA-Linux/kernel-open/Kbuild
+index a8f8d0b..78ff0fc 100644
+--- a/NVIDIA-Linux/kernel-open/Kbuild
++++ b/NVIDIA-Linux/kernel-open/Kbuild
+@@ -115,6 +116,17 @@ endif
+
+ ccflags-y += -fno-strict-aliasing
+
++#
++# Kernel IBT (Indirect Branch Tracking) requires ENDBR64 at indirect
++# call targets. Enable -fcf-protection=branch to have the compiler
++# emit ENDBR64 at function entries, ensuring compatibility with
++# kernels built with CONFIG_X86_KERNEL_IBT=y.
++#
++# $(call cc-option, ...) ensures this is a no-op on compilers or
++# architectures that do not support -fcf-protection.
++#
++ccflags-y += $(call cc-option,-fcf-protection=branch -fno-jump-tables)
++
+ ifeq ($(ARCH),arm64)
+  ccflags-y += -mstrict-align
+ endif
