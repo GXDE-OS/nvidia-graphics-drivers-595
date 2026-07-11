@@ -250,9 +250,9 @@ Description: Firmware files used by the kernel module
 Package: libnvidia-gl-595
 Architecture: i386 amd64 arm64
 Multi-Arch: same
-Conflicts: libnvidia-gl, libnvidia-egl-gbm1, nvidia-egl-common, nvidia-vulkan-common, nvidia-vulkan-icd
-Replaces: libnvidia-gl, nvidia-egl-common, nvidia-vulkan-common, nvidia-vulkan-icd
-Provides: libnvidia-gl, libglx-vendor, libegl-vendor, nvidia-egl-common, nvidia-vulkan-common, nvidia-vulkan-icd
+Conflicts: libnvidia-gl, libnvidia-egl-gbm1, nvidia-egl-common, nvidia-vulkan-common, nvidia-vulkan-icd, libnvidia-eglcore
+Replaces: libnvidia-gl, nvidia-egl-common, nvidia-vulkan-common, nvidia-vulkan-icd, libnvidia-eglcore
+Provides: libnvidia-gl, libglx-vendor, libegl-vendor, nvidia-egl-common, nvidia-vulkan-common, nvidia-vulkan-icd, libnvidia-eglcore
 Depends:
  nvidia-kernel-common-595-595.84 [!i386],
  libnvidia-common-595,
