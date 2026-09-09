@@ -1,9 +1,9 @@
-nvidia-graphics-drivers-595 (595.91.07) UNRELEASED; urgency=medium
+nvidia-graphics-drivers-595 (595.99.02) UNRELEASED; urgency=medium
 
   * 设置与 libnvidia-eglcore 冲突
-  * new upstream 595.91.07
+  * new upstream 595.99.02
 
- -- gfdgd_xi <3025613752@qq.com>  Wed, 05 Aug 2026 17:57:32 +0800
+ -- gfdgd_xi <3025613752@qq.com>  Wed, 09 Sep 2026 20:46:03 +0800
 
 nvidia-graphics-drivers-595 (595.84) unstable; urgency=medium
 
